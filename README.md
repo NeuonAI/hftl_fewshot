@@ -7,7 +7,6 @@ Detailed experiments show that the HFTL model outperformed the OSM model in the 
 In addition, the feature dictionary generation schemes composed of various herbarium field feature combinations we proposed boost our models’ performance significantly compared to a single feature type dictionary strategy.
 
 ![Overview](https://github.com/NeuonAI/hftl_fewshot/blob/51bfc5afde979c6286e9a8af2ca0d714ea01f735/static/overview_revised.jpg)
-
 ![Dictionary schemes](https://github.com/NeuonAI/hftl_fewshot/blob/42474222f539ed9b10c602b36c99e8fee8da735d/static/dictionary_schemes.png)
 
 ## T-SNE Visualizations of the HFTL Model (a) and the OSM Model (b)
@@ -31,8 +30,7 @@ In our experiments, we find that the triplet model is able to further harness th
 
 
 
-## Research Paper
-More info about the work can be found here: <br>
+## Research article
 How Transferable are Herbarium-Field Features in Few-Shot Plant Identification with Triplet Loss?
 [https://doi.org/10.1109/APSIPAASC58517.2023.10317564](https://doi.org/10.1109/APSIPAASC58517.2023.10317564)
 
@@ -122,7 +120,7 @@ How Transferable are Herbarium-Field Features in Few-Shot Plant Identification w
 - [test_seen.txt](https://github.com/NeuonAI/hftl_fewshot/blob/51bfc5afde979c6286e9a8af2ca0d714ea01f735/lists/test_seen.txt)
 - [test_unseen.txt](https://github.com/NeuonAI/hftl_fewshot/blob/51bfc5afde979c6286e9a8af2ca0d714ea01f735/lists/test_unseen.txt)
 
-## Herbarium-Field Feature Dictionary Generation Schemes' Lists
+### Herbarium-Field Feature Dictionary Generation Scheme Lists
 Model               |  Method 1 |  Method 2 | Method 3 | Method 4 
 :-------------------------|:-------------------------|:-------------------------|:-------------------------|:-------------------------
 HFTL | [dictionary_method1.txt](https://github.com/NeuonAI/hftl_fewshot/blob/51bfc5afde979c6286e9a8af2ca0d714ea01f735/dictionary/dictionary_method1.txt) | [dictionary_method2.txt](https://github.com/NeuonAI/hftl_fewshot/blob/51bfc5afde979c6286e9a8af2ca0d714ea01f735/dictionary/dictionary_method2.txt) | [dictionary_method3_herbarium.txt](https://github.com/NeuonAI/hftl_fewshot/blob/51bfc5afde979c6286e9a8af2ca0d714ea01f735/dictionary/dictionary_method3_herbarium.txt) [dictionary_method3_field.txt](https://github.com/NeuonAI/hftl_fewshot/blob/51bfc5afde979c6286e9a8af2ca0d714ea01f735/dictionary/dictionary_method3_field.txt) | [dictionary_method4_herbarium.txt](https://github.com/NeuonAI/hftl_fewshot/blob/51bfc5afde979c6286e9a8af2ca0d714ea01f735/dictionary/dictionary_method4_herbarium.txt) [dictionary_method4_field.txt](https://github.com/NeuonAI/hftl_fewshot/blob/51bfc5afde979c6286e9a8af2ca0d714ea01f735/dictionary/dictionary_method4_field.txt)
