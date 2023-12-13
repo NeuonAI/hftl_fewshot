@@ -42,7 +42,9 @@ How Transferable are Herbarium-Field Features in Few-Shot Plant Identification w
 
 
 ## Dataset
-[PlantCLEF 2021](https://www.aicrowd.com/challenges/lifeclef-2021-plant)
+- [PlantCLEF 2021](https://www.aicrowd.com/challenges/lifeclef-2021-plant)
+- Dataset label map
+[labels_classid_map.csv](https://github.com/NeuonAI/hftl_fewshot/blob/6a2331faa3ba0ba733e4cf8ccdd86d54929852a6/labels_classid_map.csv)
 
 ## Scripts
 **Training scripts**
